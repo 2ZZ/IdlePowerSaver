@@ -1,0 +1,8 @@
+{
+  "proxmoxIpAddress": "IP HERE",
+  "proxmoxPort": "8006",
+  "proxmoxNode": "HOSTNAME HERE",
+  "thisVmId": "106",
+  "authToken": "PVEAPIToken=powersaver@pam!default=TOKEN HERE",
+  "psExe": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+}

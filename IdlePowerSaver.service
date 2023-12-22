@@ -1,0 +1,12 @@
+[Unit]
+Description=IdlePowerSaver Service
+After=network.target
+
+[Service]
+ExecStart=/opt/IdlePowerSaver/IdlePowerSaver.py
+Restart=on-failure
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
